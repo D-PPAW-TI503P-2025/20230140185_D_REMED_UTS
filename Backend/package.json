@@ -1,0 +1,19 @@
+{
+  "name": "library-system-backend",
+  "version": "1.0.0",
+  "description": "Backend Library System with Geolocation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "author": "Ridwan Fahmidina Pamungkas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^17.2.3",
+    "express": "^4.19.2",
+    "mysql2": "^3.16.2",
+    "sequelize": "^6.37.7"
+  }
+}
