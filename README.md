@@ -41,14 +41,14 @@
 ![Dashboard](ss/hanya-admin-yang-update.png)
 ![Dashboard](ss/hanya-admin-yang-delete.png)
 
-9. Stok Berkurang Setelah User Meminjam Buku
+9. Stok Berkurang Setelah User Meminjam Buku |
 Sebelum
 ![Dashboard](ss/lihat-semua-buku.png)
 Setelah Dipinjam
 ![Dashboard](ss/stok-berubah-setelah-dipinjam.png)
 
 ## Struktur Tabel
-10. Tabel Buku 
+10. Tabel Buku |
 sebelum di update
 ![Dashboard](ss/tabel-buku-sebelum-diedit.png)
 setelah di update
@@ -73,4 +73,5 @@ Disini tampilan halaman buku untuk public dan user sama, cuma bedanya kalo publi
 
 15. Halaman Buku Admin
 ![Dashboard](ss/halaman-buku-admin.png)
+Disini admin bisa melakukan CRUD buku
 
