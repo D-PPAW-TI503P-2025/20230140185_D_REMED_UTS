@@ -6,8 +6,9 @@ exports.isAdmin = (req, res, next) => {
 };
 
 exports.isUser = (req, res, next) => {
-  if (req.headers["x-user-role"] !== "user") {
-    return res.status(403).json({ message: "User access only" });
+  const role = req.headers["x-user-role"];
+  if (role !== "user" && role !== "admin") {
+    return res.status(403).json({ message: "Access restricted to User or Admin" });
   }
   next();
 };
